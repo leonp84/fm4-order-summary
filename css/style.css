@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    min-height: 96vh;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    background: hsl(225, 100%, 94%) url("../images/pattern-background-mobile.svg") no-repeat top center / 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box {
+    background-color: white;
+    text-align: center;
+    width: 330px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.outer-box img {
+    width: 330px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    font-weight: 900;
+    margin-top: 10;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.outer-box p {
+    padding: 0 35px;
+    margin: 0;
+}
+
+.pale-blue-text {
+    color: hsl(224, 23%, 55%);
+    padding: 0;
+}
+
+.plan-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin-top: 10px;
+
+}
+
+.plan-box img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+#customer-plan {
+    margin-right: 15px;
+}
+
+.plan-box a {
+    padding: 20px 5px;
+}
+
+.plan-box a:hover {
+    color: hsl(224, 41%, 56%);
+    text-decoration: none;
+}
+
+.plan-box div {
+    font-size: smaller;
+    line-height: 150%;
+}
+
+a.button {
+    display: inline-block;
+    background-color: rgb(56, 41, 224);
+    color: white;
+    font-weight: 700;
+    font-size: smaller;
+    text-decoration: none;
+    width: 80%;
+    height: 22px;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 5px rgba(56, 41, 224, .2);
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+a.button:hover { 
+    background-color: rgba(56, 41, 224, .7);
+}
+
+#cancel-button {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+#cancel-button a, #cancel-button a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel-button a:hover {
+    color: black;
+}
+
+.attribution { 
+    font-size: 11px; 
+    position: absolute;
+    bottom: 1em;
+}
+
+.attribution a, .attribution a:visited { 
+    color: black;
+}
+
+.attribution a:hover {
+    color: hsl(14, 45%, 36%);
+}
